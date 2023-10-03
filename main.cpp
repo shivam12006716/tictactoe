@@ -4,7 +4,7 @@ using namespace std;
 #define HUMAN 2
 #define SIDE 3
 #define COMPUTERMOVE 'O'
-#define HUMANMOVE 'X'
+#define HUMANMOVE 'X' //updated macros
 void showBoard(char board[][SIDE])
 {
 printf("\t\t\t %c | %c | %c \n", board[0][0], board[0][1], board[0][2]);
